@@ -1,0 +1,105 @@
+/**
+ * Body
+ */
+body { /*	turns off select by dragging as default		*/
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+}
+.container {
+	margin: 20px;
+	width: 2000px;
+	overflow: visible;
+}
+
+/**
+ * Cardholders
+ */
+.cardholder {
+	height: 120px;
+	width: 80px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	border-radius: 10px;
+	overflow: visible;
+}
+.pile {
+	background: url("../pics/mix-background.png");
+	background-position: -8px center;
+}
+.pile-drop { 
+	background: #fffee2;
+}
+.pile-div {
+	float: left;
+	margin-right: 70px;
+}
+.pile-thirteen {
+	margin-right:25px;
+	background: #ecf;
+	/*margin-right: 165px;*/
+	top:130px;
+	left:-250px;
+}
+.empty {
+	background: #def;
+	overflow: visible;
+}
+.other {
+	height: 480px;
+	width: 90px;
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+}
+
+.pile-ace {
+	background: #ddd;
+	
+}
+.ace-piles {
+	float: left;
+}
+
+/**
+ * Card
+ */
+.card {
+	height: 120px;
+	width: 80px;
+	display: inline-block;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	border-radius: 10px;
+}
+.my-board .card{
+	cursor: pointer;
+}
+
+.turned {
+	cursor: default;
+}
+
+/**
+ * Board
+ */
+
+.board {
+	width:724px;
+	/*float: left;*/
+}
+#restart, #rules {
+	width: 111px;
+	margin-bottom: 10px;
+}
+#buttons {
+	display:none;
+	width: 111px;
+	position: absolute;
+	top: 75px;
+	left: 730px;
+}

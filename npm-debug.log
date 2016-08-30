@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'js/player.js' ]
+2 info using npm@1.4.10
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'js/player.js', null ]
+6 verbose cache add name=undefined spec="js/player.js" args=["js/player.js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'js/player.js',
+7 verbose parsed url   path: 'js/player.js',
+7 verbose parsed url   href: 'js/player.js' }
+8 silly lockFile 4d3950ee-js-player-js js/player.js
+9 verbose lock js/player.js /Users/Janina/.npm/4d3950ee-js-player-js.lock
+10 verbose chmod /var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz 644
+11 verbose tar unpack /var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz
+12 silly lockFile 0359c58b-a8154bc74tmp-c1600bcdf368package tar:///Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package
+13 verbose lock tar:///Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package /Users/Janina/.npm/0359c58b-a8154bc74tmp-c1600bcdf368package.lock
+14 silly lockFile ef0e2787-35879-0-6074309761170298-tmp-tgz tar:///var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz
+15 verbose lock tar:///var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz /Users/Janina/.npm/ef0e2787-35879-0-6074309761170298-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz
+18 silly lockFile 0359c58b-a8154bc74tmp-c1600bcdf368package tar:///Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package
+19 silly lockFile 0359c58b-a8154bc74tmp-c1600bcdf368package tar:///Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package
+20 silly lockFile ef0e2787-35879-0-6074309761170298-tmp-tgz tar:///var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz
+21 silly lockFile ef0e2787-35879-0-6074309761170298-tmp-tgz tar:///var/folders/mr/7cvrkn3d527fjd9rddqsqs4c0000gn/T/npm-5325-VxDI1YwK/1472554335879-0.6074309761170298/tmp.tgz
+22 silly lockFile 4d3950ee-js-player-js js/player.js
+23 silly lockFile 4d3950ee-js-player-js js/player.js
+24 error addLocal Could not install js/player.js
+25 error Error: ENOENT, open '/Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package/package.json'
+26 error If you need help, you may report this *entire* log,
+26 error including the npm and node versions, at:
+26 error     <http://github.com/npm/npm/issues>
+27 error System Darwin 14.5.0
+28 error command "node" "/usr/local/bin/npm" "install" "js/player.js"
+29 error cwd /Users/Janina/Desktop/FTP/patiens
+30 error node -v v0.10.28
+31 error npm -v 1.4.10
+32 error path /Users/Janina/.npm/tmp_584a8154bc74tmp_c1600bcdf368package/package.json
+33 error code ENOENT
+34 error errno 34
+35 verbose exit [ 34, true ]
